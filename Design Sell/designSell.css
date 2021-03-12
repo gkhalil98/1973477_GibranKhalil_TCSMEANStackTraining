@@ -1,0 +1,21 @@
+.divClass {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: slateblue;
+}
+
+.fontClass {
+  font-size: 25px;
+  font-style: italic;
+  font: "Times New Roman";
+  font-variant: small-caps;
+  align: center;
+}
+
+.paraClass {
+  font: "Arial";
+  border: springgreen solid 5px;
+  align: center;
+  padding: 10px;
+}
