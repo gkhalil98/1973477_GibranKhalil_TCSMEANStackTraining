@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <p> Welcome to HTML web page</p>
+    <script type="text/JavaScript">
+      var a;                      //Default value is undefined
+      var n=10;                   //Int type
+      var m=10.10;                //Float type
+      var name="Gibran Khalil";   //String type
+      var result = true;          //Boolean type
+      var obj = new Date();       //Object type
+      document.write("The value of a is " + a);
+      document.write("<br>The value of n is " + n);
+      document.write("<br>The value of m is " + m);
+      document.write("<br>The value of name is " + name);
+      document.write("<br>The value of result is " + result);
+      document.write("<br>The value of date info is " + n);
+
+      var a = 10%3;
+      document.write(a);
+      //== and ===
+      var b=10;
+      var c="10";
+      document.write(b==c);       //Checks value only
+      document.write("<br>")
+      document.write(b===c);      //Checks type and value
+      document.write("<br>");
+
+      //typeof
+      var n;
+      document.write("typeof example");
+      document.write("<br>Data type of n <br>");
+      n="10"
+      document.write(typeof(n));
+      document.write("<br>Data type of n <br>");
+      document.write(typeof(n));
+      document.write("<br>Data type of n <br>");
+      n=10.10;
+      document.write(typeof(n));
+      document.write("<br>Data type of n <br>");
+      n="10"
+      document.write(typeof(n));
+      document.write("<br>Data type of n <br>");
+      n=true;
+      document.write(typeof(n));
+
+
+
+      //Switch examples
+      var num=1;
+      switch(num){
+        case 1: document.write("<br>1st block");
+          break;
+        case 2: document.wrtie("2nd block");
+          break;
+        case 3: document.write("3rd block");
+          break;
+        default: document.write("Wrong choice.<br>");
+          break;
+      }
+      document.write("Finished...<br>");
+
+      //If-Else examples
+      var avg=80;
+      if(avg > 90) {
+        document.write("A+<br>");
+      }
+      else if(avg > 80) {
+        document.write("A<br>");
+      }
+      else if(avg > 70) {
+        document.write("B<br>");
+      }
+      else {
+        document.write("C<br>");
+      }
+
+      //Loop examples
+      var i=1, n=10;
+      while(i<=n){
+        document.write("Hello<br>");
+      }
+      while(i<=n){
+        document.write(i);
+        document.write("<br>");
+        i++;
+      }
+      do {
+        document.write(i);
+        document.write("<br>");
+        i++
+      }while(i<=n);
+
+      for(var i=0; i<=10; i++) {
+        document.write("<br>i = " +i);
+      }
+    </script>
+
+  </body>
+</html>
