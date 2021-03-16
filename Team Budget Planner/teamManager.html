@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <title>Team Budget Planner</title>
+
+    <link rel='stylesheet' href='teamManager.css'/>
+
+    <script src="budgetPlanner.js"/>
+
+
+  </head>
+
+  <body>
+
+    <div class='container'>
+
+      <h1 class='header'>Team Budget Planner</h1>
+
+      <form>
+
+        <label class='label'>Name: </label>
+        <input type='text' id='managerName' class='field'/><br>
+
+        <label class='label'>Vendor Name: </label>
+        <input type='text' id='vendorName' class='field'/><br>
+
+        <label class='label'>Funds Required: </label>
+        <input type='text' id='funds' class='field'/><br>
+
+        <input type='button' value='Submit' class='dataButton' onclick='submitData()'/>
+        <input type='button' value='Reset' class='dataButton' onclick='clearData()'/>
+        <input type='button' class='button' value='Back' onclick="location.href='main.html'"/>
+
+      </form>
+
+    </div>
+
+  </body>
+
+</html>

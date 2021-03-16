@@ -1,0 +1,40 @@
+.container {
+  width: 960px;
+  height: 540px;
+  border: solid black 5px;
+  padding: 10px;
+  margin: auto;
+  background-color: #FFC757;
+}
+
+.header{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-variant: small-caps;
+  color: slateblue;
+}
+
+.button {
+  width: 160px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 2px;
+  border-radius: 135px;
+  margin-top: 375px;
+  margin-bottom: auto;
+  margin-left: 750px;
+  margin-right: auto;
+  padding: auto;
+  font-size: 24px;
+  font-variant: small-caps;
+  color: #FFC757;
+  background-color: slateblue;
+}
+
+.table {
+  border: solid 4px black;
+}
