@@ -12,7 +12,7 @@ function submitData() {
   insertNewRecord(data);
   budget.push(data);
   function storeLocal() {
-    dataString = JSON.stringify(data).localStorage.getItem("budgetInfo");
+    dataString = JSON.stringify(data).localStorage.setItem("budgetInfo", budget);
   }
   clearData();
 }
