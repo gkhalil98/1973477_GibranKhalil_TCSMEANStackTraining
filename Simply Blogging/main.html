@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
+  <link rel="stylesheet" href="main.css"></link>
+
+  <script scr='main.js'></script>
+</head>
+<body onload="retrieveFromSession()">
+  <div class='container' id='container'>
+    <!--Start of Nav bar remember to add functionality and styling here-->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Gibran's Blog</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Projects</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <form id="articleForm">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Article Title</label>
+        <input type="text" class="form-control" id="title">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Article Information</label>
+        <textarea class="form-control" id="articleBody" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Article images (supported formats: .jpg, .png)</label>
+        <input type="file" class="form-control-file" id="img">
+      </div>
+    </form>
+    <input type='submit' class='button' value='Submit Article' onclick='submitArticle()'></input>
+    <input type='reset' class='button' value='Clear Fields' onclick='resetData()'></input><br/>
+    <!--These are the containers for premade articles, they should be side by side in their own bordered divs at the bottom, consider these thumbnails and style them accordingly-->
+    <h1 class='header'>Published Articles</h1>
+    <div class='articleContainer'>
+      <h2 class='header'>Toronto</h2>
+      <p>Toronto is the capital city of the Canadian province of Ontario. With a recorded population of 2,731,571,[14] it is the most populous city in Canada and the fourth most populous city in North America.</p>
+      <img src="toronto.jpg" width="100%" height="100%"/>
+    </div>
+    <div class='articleContainer'>
+      <h2 class='header'>Teamfight Tactics (TFT)</h2>
+      <p>TFT is a round-based strategy game that pits you against seven opponents in a free-for-all race to build a powerful team that fights on your behalf. Your goal: Be the last person standing.</p>
+      <img src="tft.jpg" width="100%" height="100%"/>
+    </div>
+    <div class='articleContainer'>
+      <h2 class='header'>Momo</h2>
+      <p>Momo Hirai (平井 もも, Hirai Momo, born November 9, 1996), known mononymously as Momo (Korean: 모모; Japanese: モモ), is a Japanese singer and dancer based in South Korea. She is a member of the South Korean girl group Twice, formed by JYP Entertainment.</p>
+      <img src="momo.jpg" width="100%" height="100%"/>
+    </div>
+  </div>
+</body>
+</html>
