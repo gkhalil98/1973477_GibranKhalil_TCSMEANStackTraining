@@ -1,0 +1,78 @@
+.shoppingCart {
+  border: solid black 5px;
+  padding: 5px;
+  height: 1024px;
+  width: 1332px;
+  margin: 5px;
+  background-color: grey;
+}
+
+.itemHolder {
+  border: solid slateblue 3px;
+  margin: auto;
+  height: 44%;
+  width: 47%;
+  padding: 2px;
+  box-shadow: 2px 4px;
+  background-color: grey;
+  float: left;
+}
+
+.itemHolder2 {
+  border: solid slateblue 3px;
+  margin: auto;
+  height: 44%;
+  width: 47%;
+  padding: 2px;
+  box-shadow: 2px 4px;
+  background-color: grey;
+  float: right;
+}
+
+.header {
+  text-decoration: underline;
+  color: gold;
+  font-weight: bold;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.price {
+  text-decoration: underline;
+  color: gold;
+  font-size: 24px;
+  padding: 10px;
+  font-variant: small-caps;
+}
+
+.link {
+  float: right;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+  color: slateblue;
+  font-variant: small-caps;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.itemLabel {
+  color: gold;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+
+.cart {
+  border: solid slateblue 3px;
+  align-content: center;
+  padding: 5px;
+  margin: auto;
+}

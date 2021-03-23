@@ -1,0 +1,16 @@
+Repository Link: https://github.com/gkhalil98/1973477_GibranKhalil_TCSMEANStackTraining.git
+
+This project can be found in the ShoppingCart Folder
+
+Steps:
+1. I created 4 main files for this application, shoppingCart.html which was my main landing page with the items
+2. checkout.html which is where you can see the final cart
+3. shoppingCart.css which holds all the styling information for my application
+4. and finally shoppingCart.ts which holds the logic to work the back end.
+5. first I worekd with shoppingCart.html in creating the basic layout of the webpage and the elements and I then did the same on checkout.html
+6. Afterwards I created all of my different styling classes to achieve the look I had desired
+7. I then finally worked out all of the back end logic in shoppingCart.ts
+
+npm is still failing to install both angular and typescript and recognize their keywords as valid. I am still looking to find a fix, however the logic in typescript should be sound.
+
+This report file, all images, and the previous files from other reports are all untracked in the repo.
