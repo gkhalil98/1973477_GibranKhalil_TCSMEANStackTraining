@@ -1,0 +1,22 @@
+<div>
+  <h2>Contact Information</h2>
+  <form>
+    <label>Contact Name</label><br/>
+    <input type='text' id="contactName" value='Ex: John Smith'/><br/>
+    <label>Contact Number</label><br/>
+    <input id="number" type='tel'/><br/>
+    <input type="button" value="Add Contact"
+    (click)="addContact()"/>
+  </form>
+</div>
+<hr/>
+<table id="contacts">
+  <thead>
+    <tr>
+      <th colspan="2">Contact Name</th>
+      <th colspan="2">Contact Number</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>

@@ -1,0 +1,22 @@
+div {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border: solid slateblue 3px;
+  background: #5D6770;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+a:hover {
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: white;
+  background: #696A87;
+}

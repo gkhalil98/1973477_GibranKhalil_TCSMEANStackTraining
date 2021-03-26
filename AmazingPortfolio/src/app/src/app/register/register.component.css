@@ -1,0 +1,20 @@
+div {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border: solid slateblue 3px;
+  background: #5D6770;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 110%;
+  font-family: sans-serif;
+}
+
+.button {
+  float: right;
+  margin-top: 80%;
+  font-family: sans-serif;
+}

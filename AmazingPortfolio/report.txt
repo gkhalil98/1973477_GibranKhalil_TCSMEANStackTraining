@@ -1,0 +1,13 @@
+Github repo: https://github.com/gkhalil98/1973477_GibranKhalil_TCSMEANStackTraining.git
+
+This project can be found in the AmazingPortfolio Folder.
+
+The report.txt file will be untracked, along with previous untracked files.
+
+Steps:
+
+1. I first mimicked the path and file setup that the trainer gave us and copied his auto completed files where necessary as Angular and Typescript still are not functioning on my computer.
+2. Once this was done I started working on the three main files for each component, html, css, and ts.
+3. I added logic to the ts files, styling to the css, and finally created the look of the html pages.
+4. Today around 7pm I fixed angular and typescript on my computer but this project seemed to still be deprecated and I could not get it to work correctly for me without errors that I could not find resolutions for online.
+5. I will finally be able to follow the trainer from now on and hopefully will be able to move forward with testing my programs. Thank you for bearing with me through this process, I appreciate it.
